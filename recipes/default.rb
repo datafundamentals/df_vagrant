@@ -10,6 +10,12 @@
 
 # make sure that virtualbox is installed first before everything
 
-
+# include_recipe "df_virtualbox::default"
 
 #afterwards install Vagrant
+
+package "vagrant" do 
+	source "/vagrant/binaries/vagrant_1.4.3_x86_64.rpm"
+	action :install 
+end
+ 

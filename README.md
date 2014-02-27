@@ -10,7 +10,7 @@ this must work with centOS 6.5 and work in conjunction with software continuous 
 
 # Recipes
 
-* default - makes sure to cue virtualbox and then install Vagrant
+* default - makes sure to cue virtualbox and then install Vagrant. This is not as modular as we would like it to be but can be worked on.
 
 # Author
 
