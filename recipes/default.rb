@@ -15,7 +15,7 @@
 #afterwards install Vagrant
 
 package "vagrant" do 
-	source "/vagrant/binaries/vagrant_1.4.3_x86_64.rpm"
+	source "/vagrant/binaries/vagrant_1.3.5_x86_64.rpm"
 	action :install 
 end
  
